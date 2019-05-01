@@ -7,7 +7,7 @@
         ],
         "Category": "Utilities",
         "Description": "Dummy-plugin for debugging. Always 'succeeds' to share a file and returns a destination url.",
-        "Icon": "error",
+        "Icon": "dialog-ok",
         "License": "GPL",
         "Name": "Share and succeed...",
         "Name[x-test]": "xxShare and succeed...xx"
