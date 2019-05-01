@@ -39,9 +39,10 @@ public:
     {
         qDebug() << "ShareSuccessJob::start()";
         QJsonArray urlsJson = data().value(QStringLiteral("urls")).toArray();
-        qDebug() << urlsJson;
+        qDebug() << "urls:" << urlsJson;
         setOutput( {{ QStringLiteral("url"), QString::fromUtf8("https://www.example.com/uploads/latest") }});
         emitResult();
+        qDebug() << "ShareSuccessJob::start() done.";
     }
 
     };
