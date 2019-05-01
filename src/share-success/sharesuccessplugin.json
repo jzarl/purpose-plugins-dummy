@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Johannes Zarl-Zierl"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Dummy-plugin for debugging. Always 'succeeds' to share a file and returns a destination url.",
+        "Icon": "error",
+        "License": "GPL",
+        "Name": "Share and succeed...",
+        "Name[x-test]": "xxShare and succeed...xx"
+    },
+    "X-Purpose-Configuration": [],
+    "X-Purpose-Constraints": [],
+    "X-Purpose-PluginTypes": [
+        "Export",
+        "ShareUrl"
+    ]
+}
